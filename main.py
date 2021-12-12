@@ -4,11 +4,11 @@ import os
 from twython import Twython
 import html
 
-APIKEY = os.environ.get('APIKEY')
-APISECRETKEY = os.environ.get('APISECRETKEY')
-BEARERTOKEN = os.environ.get('BEARERTOKEN')
-ACCESSTOKEN = os.environ.get('ACCESSTOKEN')
-ACCESSTOKENSECRET = os.environ.get('ACCESSTOKENSECRET')
+APIKEY = os.environ.get('APIKEY_TB')
+APISECRETKEY = os.environ.get('APISECRETKEY_TB')
+BEARERTOKEN = os.environ.get('BEARERTOKEN_TB')
+ACCESSTOKEN = os.environ.get('ACCESSTOKEN_TB')
+ACCESSTOKENSECRET = os.environ.get('ACCESSTOKENSECRET_TB')
 
 
 def question_tweet(q, a1, a2, a3, a4):
